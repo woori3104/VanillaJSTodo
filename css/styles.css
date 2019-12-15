@@ -1,0 +1,70 @@
+@import "reset.css";
+.main {
+    margin-top: 10%;
+    margin-left: 45%;
+    padding-top: 0px;
+}
+
+.clock h1 {
+    font-size: 45px;
+    color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main .toDoShowing {
+    display: block;
+}
+
+.main ul {
+    font-size: 20px;
+    color: darkmagenta;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main .showing {
+    display: block;
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.main h4 {
+    margin-left: -15%;
+}
+
+.weather {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: darkslategray;
+    font-style: italic;
+}
+
+.toDoForm,
+.greeting,
+.form {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
